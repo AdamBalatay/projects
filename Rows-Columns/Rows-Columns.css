@@ -1,0 +1,30 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    gap: 10px 10px;
+}
+
+.b-1, .b-9 {
+    background-color: blue;
+}
+
+.b-2, .b-3, .b-5, .b-6, .b-7, .b-8 {
+    background-color: aqua;
+}
+
+.b-4 {
+    background-color: lightgreen;
+    grid-column: 3 / 5;
+    grid-row: 2;
+}
+
+.b-1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.b-9 {
+    grid-column: 3 / 5;
+    grid-row: 3 /5;
+}

@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-image: url(https://4kwallpapers.com/images/wallpapers/cyberpunk-mclaren-supercars-neon-art--1003.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;    
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    color: red;
+}
+
+nav {
+    border:3px inset rgba(255, 0, 255, 0.8);
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255, 0, 255, 0.6);
+    margin-bottom: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 30px;
+}
+
+a {
+    color: red;
+   border: 3px inset rgba(0, 255, 255, 0.5);
+   background-color: rgba(0, 255, 255, 0.5);
+   border-radius: 10px;
+   padding: 5px;
+   text-decoration: none;
+}
+
+iframe {
+    border-radius: 50px;
+    border: 4px inset rgba(255, 0, 255, 0.8);
+    margin: 10px;
+    box-shadow: 0 0 20px aqua;
+}
+
+hr {
+    border: 3px inset rgba(0, 255, 255, 0.5);
+    color: aqua;
+}
+
+form {
+    border: 3px inset rgba(0, 255, 255, 0.7);
+    background-color: rgba(0, 255, 255, 0.4);
+    padding: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input {
+    border: 3px inset rgba(0, 255, 255, 0.7);
+    background-color: rgba(0, 255, 255, 0.4);
+    text-align: center;
+}
+
+.vid {
+    width: 87px
+}
+
+.pv {
+    border:  3px inset rgba(0, 255, 255, 0.5);
+    background-color: rgba(0, 255, 255, 0.4);
+    border-radius: 20px;
+    margin: 0px 30%;
+}
+
+.p-1 {
+    font-size: 20px;
+    border:  3px inset rgba(0, 255, 255, 0.5);
+    background-color: rgba(0, 255, 255, 0.4);
+    border-radius: 20px;
+}

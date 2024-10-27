@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    height: 100%;
+    margin: 0;
+}
+
+.d-1 {
+    background-image: url(https://4kwallpapers.com/images/wallpapers/cyberpunk-mclaren-supercars-neon-art--1003.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-1 {
+   font-size: 100px; 
+   padding-top: 30%;
+   margin-top: 0;
+}
+
+.d-2 {
+    background-color: white;
+    padding: 3%;
+    background-attachment: fixed;   
+}
+
+.d-3 {
+    background-image: url(https://images3.alphacoders.com/133/1335169.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%;
+}
+
+.d-4 {
+    background-color: gray;
+    padding: 5%;
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.d-5 {
+    background-image: url(https://i.pinimg.com/originals/96/f7/68/96f768c59834ac1495735493dbd70e74.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.d-6 {
+    background-color: gray;
+    padding: 5%;
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.d-7 {
+    background-image: url(https://wallpapercave.com/wp/wp11449881.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-2 {
+    font-size: 100px;
+    padding: 25%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}

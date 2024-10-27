@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="MyTubeProject.css">
+    <title>new video</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="./MyTubeProject.html">home</a>
+      <a href="./pages/Cars-I-Like.html">Cars-I-like</a>
+      <a href="./pages/Trucks-SUVs.html">trucks-SUVs</a>
+      <a href="./pages/Sport-Cars.html">Sport-Cars</a>
+      <a href="./Form.html">New-Video</a>
+    </nav>
+
+    <h1>Add New Video</h1>
+
+    <form
+      action="/action_page.php"
+      method="post"
+      autocomplete="on"
+      autocapitalize="on"
+    >
+      <label name="video title" for="video title"
+        >Video Title <br />
+        <input
+          class="Upload"
+          type="text"
+          name="video title"
+          id="video title"
+          placeholder="enter video title"
+          required
+        />
+      </label>
+
+      <br /><br />
+
+      <label name="Description" for="Description"
+        >Description <br />
+        <textarea
+          name="Description"
+          id="Description"
+          rows="4"
+          cols="30"
+          required
+        ></textarea>
+      </label>
+
+      <br /><br />
+
+      <label name="video" for="video"
+        >Video <br />
+      </label>
+      <input type="file" name="video" id="video" required class="vid" />
+
+      <br /><br />
+
+      <label name="collection" for="collection"
+        ><select name="collection" id="collection">
+          <option value="">Choose collection</option>
+          <option value="collection 1">collection 1</option>
+          <option value="collection 2">collection 2</option>
+          <option value="collection 3">collection 3</option>
+        </select></label
+      >
+
+      <br /><br />
+
+      <label name="privacy" for="privacy">
+        <input
+          type="radio"
+          name="privacy"
+          id="privacy"
+          value="Public"
+          required
+        />Public
+        <input
+          type="radio"
+          name="privacy"
+          id="privacy"
+          value="Private"
+          required
+        />Private
+      </label>
+
+      <br /><br />
+
+      <label for="button">
+        <input
+          class="Upload"
+          type="button"
+          name="button"
+          id="button"
+          value="Upload Video"
+          required
+        />
+      </label>
+    </form>
+
+    <hr />
+    <footer><p class="pf">&copy; Copyright</p></footer>
+  </body>
+</html>

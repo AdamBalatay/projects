@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.main {
+    flex-direction: row;
+    display: flex;
+    margin: 15% 40%;
+    height: 500px;
+    width: 300px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.info-1, .info-2, .info-3, .info-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}

@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: aqua;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 30px;
+
+}
+
+.lion {
+border: 8px outset black;
+
+}
+li {
+    border: 3px outset black;
+    border-radius: 20px;
+    color: aqua;
+    background-color: black;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+img{
+    border-radius: 50%;
+}
+
+.p-1 {
+    border: 3px outset black;
+    border-radius: 20px;
+    background-color: black;
+    color: aqua;
+    line-height: 30px;
+}
+
+div {
+    border: 3px outset black;
+    border-radius: 20px;
+    background-color: black;
+    color: aqua;
+}
+
+.p-2 {
+    border: 3px outset purple;
+    background-color: purple;
+    border-radius: 20px;
+    line-height: 30px;
+}
