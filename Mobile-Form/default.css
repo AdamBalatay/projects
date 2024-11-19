@@ -1,0 +1,98 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 25%;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    background-color: #7B68EE;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    background-color: #7B68EE;
+    width: 20rem;
+    border: none;
+}
+
+h2, .nav-s {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.space {
+    margin-left: 30px;
+}
+
+.no-i {
+    margin-left: 33px;
+}
+
+.name, .address, .state, .zip, .birthday {
+    background-color: lightgray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.phone, .city, .email, .space-l {
+    border-color: gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+select {
+    padding: 9px;
+}
+
+.name, .address, .city, .email, .birthday {
+    padding: 10px 25% 10px 10px;
+}
+
+.space-l {
+    padding-right: 44px;
+}
+
+.birthday {
+    padding-right: 35.7%;
+}
+
+.zip {
+    width: 24%;
+}
+
+@media (min-width: 800px) {
+    .container {max-width: 600px;}
+}
