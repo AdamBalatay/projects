@@ -1,0 +1,60 @@
+
+body {
+    background-color: limegreen;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: large; 
+    text-align: center;
+}
+
+hr {
+   border-top: 1px inset lightgray;
+   border-bottom: 1px inset lightgray;
+}
+
+p {
+   padding-left: 20%;
+   padding-right: 20%;  
+}
+
+input {
+    border-radius: 20%;
+    border: 3px inset lightgray;
+    background-color: limegreen;
+}
+
+img {
+    border-radius: 50%;
+    width: 225px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.main {
+    border: 3px inset lightgray;
+    border-radius: 20px;
+    
+}
+
+.main .profile {
+    text-align: left;
+}
+
+.me {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.link {
+    border-radius: 50%;
+    max-width: 25px;
+    background-color: white;
+}
+
+.main .links {
+    text-align: right;
+}
+
